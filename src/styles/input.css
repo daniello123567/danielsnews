@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+button{
+  @apply focus:bg-gray-400 focus:text-white  px-2 rounded active:shadow-lg text-sm font-light
+}
+.liu{
+  @apply text-black text-sm rounded bg-slate-200 px-3 py-1.5
+}
